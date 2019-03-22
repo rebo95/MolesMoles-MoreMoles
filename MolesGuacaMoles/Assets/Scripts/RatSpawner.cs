@@ -15,7 +15,7 @@ public class RatSpawner : MonoBehaviour
     float timeLeft;
     public int spawnningRateTime = 2;
 
-    PlantLogic plantLogic;
+    PlantLogic2 plantLogic;
 
     int plantState = 0;
 
@@ -24,7 +24,7 @@ public class RatSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        plantLogic = plant.GetComponent<PlantLogic>();
+        plantLogic = plant.GetComponent<PlantLogic2>();
         plantState = plantLogic.givePlantState();
         timeLeft = spawnningRateTime;
     }
