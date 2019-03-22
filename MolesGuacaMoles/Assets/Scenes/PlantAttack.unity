@@ -129,6 +129,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -282,6 +287,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -360,6 +370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RatSpawner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
@@ -444,6 +459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
@@ -924,6 +944,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1060,6 +1085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RatSpawner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1142,7 +1172,7 @@ PrefabInstance:
     - target: {fileID: 1715671651195036111, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2229066239076651335, guid: 3821d9593ba079c48b5b3e01f69f8a2f,
         type: 3}
@@ -1286,7 +1316,7 @@ PrefabInstance:
     - target: {fileID: 3922109247762959601, guid: e20aa7291bff6f44b9d03bcc4909801b,
         type: 3}
       propertyPath: growingTime
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e20aa7291bff6f44b9d03bcc4909801b, type: 3}
