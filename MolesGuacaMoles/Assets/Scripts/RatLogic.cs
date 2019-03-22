@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RatSpawnLogic : MonoBehaviour
+public class RatLogic : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,10 +18,11 @@ public class RatSpawnLogic : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-       if(collision.gameObject.tag == "Plant")
+        if(collision.gameObject.tag == "Plant")
         {
             Invoke("order66", 2.0f);
-        }else if(collision.gameObject.tag == "Bullet")
+        }
+        else if (collision.gameObject.tag == "Bullet")
         {
             order66();
         }
@@ -29,6 +30,6 @@ public class RatSpawnLogic : MonoBehaviour
 
     void order66()
     {
-        Destroy(this.gameObject);
+        Destroy(gameObject);
     }
 }

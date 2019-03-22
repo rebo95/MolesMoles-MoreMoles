@@ -58,7 +58,6 @@ public class PlantLogic : MonoBehaviour
         {
             fase3.SetActive(true);
         }
-
     }
 
 

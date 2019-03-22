@@ -19,7 +19,7 @@ public class RatSpawner : MonoBehaviour
 
     int plantState = 0;
 
-    int speed = 500;
+    int speed = 200;
     
     // Start is called before the first frame update
     void Start()
